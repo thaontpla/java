@@ -12,5 +12,9 @@ public class day02 {
             number = number / 10;
         }
         System.out.println(sum);
+
+        
     }
+
+
 }
