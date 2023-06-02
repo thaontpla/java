@@ -1,4 +1,4 @@
-package com.thao;
+package com.day03;
 
 public class day02 {
     public static void main(String[] args) {
@@ -12,6 +12,8 @@ public class day02 {
             number = number / 10;
         }
         System.out.println(sum);
+
+
 
         
     }

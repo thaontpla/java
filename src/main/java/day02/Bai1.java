@@ -1,4 +1,4 @@
-package com.thao;
+package day02;
 
 import java.util.Scanner;
 
