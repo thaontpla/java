@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //Viết chương trình nhập hai số nguyên n, m
 // và in ra hình chữ nhật rỗng các dấu * kích thước n*m. Ví dụ với n=5, m=4:
-public class bai4 {
+public class Bai4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n, m;
