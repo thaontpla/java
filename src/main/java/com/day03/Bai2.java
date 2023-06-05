@@ -9,23 +9,23 @@ import java.util.Scanner;
 public class Bai2 {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        String len;
-        System.out.print("Please enter a the text: ");
-        len = input.nextLine();
-        System.out.println(characterMostVisible(len));
-    }
+        String str1 = "test string";
+        int N = 256;
+        int ctr[] = new int[N];
+        int l = str1.length();
+        for (int i = 0; i < l; i++)
+            ctr[str1.charAt(i)]++;
+        int max = -1;
+        char result = ' ';
 
-    public static char characterMostVisible(String text) {
-            char[] arr = text.toCharArray();
-            String targetSt = "";
-            int max = 0;
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] > max) {
-                max = arr[i];
+        for (int i = 0; i < l; i++) {
+            if (max < ctr[str1.charAt(i)]) {
+                max = ctr[str1.charAt(i)];
+                result = str1.charAt(i);
             }
         }
-        return targetSt.charAt(max);
+        System.out.println("The given string is: " + str1);
+        System.out.println("Max occurring character in the given string is: " + result);
     }
 
 }
