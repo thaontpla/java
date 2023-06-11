@@ -2,7 +2,6 @@ package day05;
 
 import java.util.Scanner;
 
-//Bài 1:
 //Viết chương trình in ra màn hình tam giác vuông có hình dạng sau đây:
 //1
 //12
@@ -24,3 +23,19 @@ public class Bai1 {
         
     }
 }
+//in hình chữ nhật
+//for ( int i = 1 ; i <= 6 ; i++ ) {
+//
+//        for (int k = 6 ; k >= i ; k-- ) {
+//
+//        System.out.print("-");
+//        }
+//
+//
+//        for (int j = 1 ; j <= i ; j++ ) {
+//        System.out.print("@");
+//        }
+//
+//
+//        System.out.println();
+//        }
