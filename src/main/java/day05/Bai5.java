@@ -46,14 +46,16 @@ public class Bai5 {
         int n = 5;
         int i,j,g,k = 1;
         for ( i =0; i < n; i++) {
-            k=1;
+            //k=1;
             for (j = 0; j < n - i - 1; j++){
                 System.out.print(" ");
             }
+            //k++;
             for (g = 0; g <= i; g++){
                 System.out.print(k+" ");
                   k = k * (i - g )/ (g + 1);
             }
+            //k++;
             System.out.println();
         }
     }
