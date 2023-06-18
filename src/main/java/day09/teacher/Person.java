@@ -1,6 +1,8 @@
 package day09.teacher;
 
-public class Person {
+import java.util.Scanner;
+
+public class Person implements InputInfor {
     protected String name;
     protected String address;
     protected String phone;
@@ -29,4 +31,13 @@ public class Person {
         this.phone = phone;
     }
 
+    @Override
+    public void inputInfor() {
+        System.out.print("Nhạp ten: ");
+        this.setName(new Scanner(System.in).nextLine());
+        System.out.print("Nhap: ");
+        this.setAddress(new Scanner(System.in).nextLine());
+        System.out.print("Nhạp so dien thoại: ");
+        this.setPhone(new Scanner(System.in).nextLine());
+    }
 }
