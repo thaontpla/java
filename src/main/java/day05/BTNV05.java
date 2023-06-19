@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 //Bài 5: Nhập số liệu cho dãy số nguyên a[0], a[1],..., a[n-1] và 2 số nguyên b, c (b < c).
 // Tính trung bình cộng các phần tử của dãy nằm trong đoạn [b, c].
+//duyệt từng phần tử nếu nó lớn hơn b và c thì cộng vào là đc
 public class BTNV05 {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 4};
