@@ -10,14 +10,13 @@ public class App {
         int choice;
         choice = new Scanner(System.in).nextInt();
         switch (choice){
-            case 1: //ên sách, Tác giả, Chuyên ngành, Năm xuất bản
+            case 1: //Tên sách, Tác giả, Chuyên ngành, Năm xuất bản
                 Book book = new Book();
                 System.out.print("Nhap ten sach: ");
                 book.setName(new Scanner(System.in).nextLine());
                 System.out.print("Nhap tac gia: ");
                 book.setTacGia(new Scanner(System.in).nextLine());
                 System.out.print("Chuyen nganh: ");
-
 
                 for (int i = 0; i <books.length ; i++) {
                     if (books[i] == null){
