@@ -1,4 +1,4 @@
-package day09.teacher;
+package day09.teacher.enity;
 
 import java.util.Scanner;
 
@@ -40,7 +40,7 @@ public class Teacher extends Person{
                 '}';
     }
 
-    public void inforTeacher(){
+    public void infoTeacher(){
         System.out.println("Bạn muốn thêm moi bao nhiêu giang vien");
         int teacherNumber = new Scanner(System.in).nextInt();
         for (int i = 0; i < teacherNumber; i++) {

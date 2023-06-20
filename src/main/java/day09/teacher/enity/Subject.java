@@ -1,4 +1,4 @@
-package day09.teacher;
+package day09.teacher.enity;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package day09.teacher;
+package day09.teacher.enity;
 
 public enum TeacherLevel {
     GS_TS("GS-TS"),

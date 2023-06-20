@@ -1,6 +1,6 @@
 package day10.book;
 
-import day09.teacher.InputInfor;
+import day09.teacher.enity.InputInfor;
 
 import java.util.Scanner;
 
