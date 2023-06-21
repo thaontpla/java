@@ -2,6 +2,7 @@ package day10.reporter.logic;
 
 import day10.reporter.entity.Reporter;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ReporterLogic {
@@ -32,5 +33,9 @@ public class ReporterLogic {
                 System.out.println(reporters[i]);
             }
         }
+    }
+
+    public void arrangeIncrease() {
+        Arrays.sort(reporters);
     }
 }

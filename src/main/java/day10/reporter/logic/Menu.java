@@ -29,6 +29,9 @@ public class Menu {
                 case 5:
                     salary.calculate();
                     break;
+                case 6:
+                    reporter.arrangeIncrease();
+                    break;
             }
         }
     }
