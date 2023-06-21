@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Menu {
     ReporterLogic reporter = new ReporterLogic();
     TypesPostLogic typesPost = new TypesPostLogic();
+    SalaryLogic salary = new SalaryLogic();
 
     public void menuSalaryJournalist() {
         while (true) {
@@ -24,6 +25,9 @@ public class Menu {
                     break;
                 case 4:
                     typesPost.show();
+                    break;
+                case 5:
+                    salary.calculate();
                     break;
             }
         }
