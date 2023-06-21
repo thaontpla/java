@@ -1,6 +1,4 @@
-package day10.book;
-
-import day09.teacher.InputInfor;
+package day10.reporter.entity;
 
 import java.util.Scanner;
 
@@ -36,7 +34,7 @@ public class Person implements InputInfor {
     public void inputInfor() {
         System.out.print("Nhạp ten: ");
         this.setName(new Scanner(System.in).nextLine());
-        System.out.print("Nhap: ");
+        System.out.print("Nhap dia chi: ");
         this.setAddress(new Scanner(System.in).nextLine());
         System.out.print("Nhạp so dien thoại: ");
         this.setPhone(new Scanner(System.in).nextLine());

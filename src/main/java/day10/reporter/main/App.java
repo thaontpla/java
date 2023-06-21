@@ -1,11 +1,10 @@
-package day09.teacher.main;
+package day10.reporter.main;
 
-import day09.teacher.logic.Menu;
+import day10.reporter.logic.Menu;
 
 public class App {
     public static void main(String[] args) {
         Menu menu = new Menu();
-        menu.menuTeacher();
+        menu.menuSalaryJournalist();
     }
-
 }
