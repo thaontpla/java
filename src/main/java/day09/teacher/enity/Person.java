@@ -1,10 +1,8 @@
-package day10.book;
-
-import day09.teacher.InputInfor;
+package day09.teacher.enity;
 
 import java.util.Scanner;
 
-public class Person implements InputInfor {
+public class Person implements day09.teacher.InputInfor {
     protected String name;
     protected String address;
     protected String phone;
@@ -16,6 +14,7 @@ public class Person implements InputInfor {
     public String getAddress() {
         return address;
     }
+
     public String getPhone() {
         return phone;
     }
