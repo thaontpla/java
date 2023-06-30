@@ -4,7 +4,6 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class SortNum {
-    public class Main02 {
 
         public static void main(String[] args) {
             int[] a = inputArray();
@@ -12,6 +11,8 @@ public class SortNum {
             sort(a);
             showArray(a);
         }
+
+
 
         private static void showArray(int[] a) {
             System.out.println("------------------");
@@ -54,7 +55,7 @@ public class SortNum {
                 try {
                     System.out.print(message);
                     x = new Scanner(System.in).nextInt();
-                    break;
+                   break;
                 } catch (InputMismatchException ex) {
                     System.out.println("Sai định dạng, vui lòng nhập lại: ");
                 }
@@ -62,5 +63,4 @@ public class SortNum {
             return x;
         }
 
-    }
 }
